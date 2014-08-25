@@ -1,0 +1,1146 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ev",
+				"eventkey	string ν"
+			],
+			[
+				"E",
+				"Errmsg	string ν"
+			],
+			[
+				"Print",
+				"Println	 ƒ"
+			],
+			[
+				"A",
+				"ACCESS_TOKEN	string ν"
+			],
+			[
+				"Spr",
+				"Sprintf	string ƒ"
+			],
+			[
+				"_ada",
+				"_adapter_disconnect"
+			],
+			[
+				"UDP",
+				"UDP_PORT"
+			],
+			[
+				"sen",
+				"seconds"
+			],
+			[
+				"test",
+				"testMSGCNT"
+			],
+			[
+				"MSN",
+				"MSGCNT"
+			],
+			[
+				"ERL_",
+				"ERL_NIF_TERM"
+			],
+			[
+				"fil",
+				"filterexp"
+			],
+			[
+				"ER",
+				"ERL_NIF_LATIN1"
+			],
+			[
+				"enif_make",
+				"enif_make_badarg"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "packages/users/app.js",
+			"settings":
+			{
+				"buffer_size": 1375,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "packages/users/package.json",
+			"settings":
+			{
+				"buffer_size": 243,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 2926,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "packages/users/server/models/user.js",
+			"settings":
+			{
+				"buffer_size": 3137,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node_modules/meanio/index.js",
+			"settings":
+			{
+				"buffer_size": 335,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node_modules/meanio/modules/package.js",
+			"settings":
+			{
+				"buffer_size": 360,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node_modules/meanio/lib/mean.js",
+			"settings":
+			{
+				"buffer_size": 15370,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node_modules/meanio/lib/scaffold.js",
+			"settings":
+			{
+				"buffer_size": 3573,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "packages/system/app.js",
+			"settings":
+			{
+				"buffer_size": 913,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "packages/system/package.json",
+			"settings":
+			{
+				"buffer_size": 250,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "packages/system/server/routes/index.js",
+			"settings":
+			{
+				"buffer_size": 181,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "packages/system/server/routes/menus.js",
+			"settings":
+			{
+				"buffer_size": 617,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "packages/system/server/controllers/index.js",
+			"settings":
+			{
+				"buffer_size": 769,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "packages/access/server/config/authorization.js",
+			"settings":
+			{
+				"buffer_size": 522,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "packages/access/server/config/passport.js",
+			"settings":
+			{
+				"buffer_size": 5744,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 167.0,
+		"selected_items":
+		[
+			[
+				"pcip",
+				"Package Control: Install Package"
+			],
+			[
+				"for",
+				"Format Code"
+			],
+			[
+				"beaut",
+				"HTMLBeautify"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"bea",
+				"GoSublime: Activate 9o"
+			],
+			[
+				"form",
+				"Format Code"
+			],
+			[
+				"fo",
+				"Format Code"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/michael/workspace/nodejs/jiasudu/packages/access/app.js",
+		"/Users/michael/Downloads/darteditor.torrent",
+		"/Users/michael/workspace/lxjs-chat/node_modules/browserify/node_modules/browser-pack/node_modules/JSONStream/test/fixtures/all_npm.json",
+		"/Users/michael/workspace/mojing/tmp/fielclient.go",
+		"/Users/michael/workspace/zuche/templates/hello.tmpl",
+		"/Users/michael/workspace/zuche/SConstruct",
+		"/Users/michael/workspace/zuche/templates/rentcity.tmpl",
+		"/Users/michael/workspace/mojing/src/menu.json",
+		"/Users/michael/workspace/zuche/templates/rent.tmpl",
+		"/Users/michael/workspace/zuche/templates/layout.tmpl",
+		"/Users/michael/workspace/zuche/src/main.go",
+		"/Users/michael/workspace/mojing/src/client.go",
+		"/Users/michael/workspace/mojing/src/oauth2.go",
+		"/Users/michael/workspace/mojing/src/main.go",
+		"/Users/michael/workspace/mojing/tmp/timetest.go",
+		"/Users/michael/workspace/mojing/SConstruct",
+		"/Users/michael/workspace/zuche/public/rent_rentstore.html",
+		"/Users/michael/workspace/mojing/tmp/fileserv.go",
+		"/Users/michael/workspace/mojing/site_scons/site_tools/go/go.py",
+		"/Users/michael/workspace/mojing/site_scons/site_tools/go/README.rst",
+		"/Users/michael/workspace/mojing/main.go",
+		"/Users/michael/workspace/mojing/.gitignore",
+		"/Users/michael/workspace/mojing/circus.ini",
+		"/Users/michael/workspace/mojing/fabfile.py",
+		"/Users/michael/workspace/go-scons/README.md",
+		"/Users/michael/workspace/mojing/site_scons/site_tools/Coffeescript.py",
+		"/Users/michael/workspace/mojing/nginx.conf",
+		"/Users/michael/workspace/mojing/.gopmfile",
+		"/Users/michael/workspace/mojing/zhuanli/mojing/mojing/items.py",
+		"/Users/michael/workspace/mojing/site_scons/Coffeescript_Readme.md",
+		"/Users/michael/repos/facepp-python-sdk/test.py",
+		"/Users/michael/.go/src/github.com/xbee/jindou/cmd/jindou-admin/quota.go",
+		"/Users/michael/.go/src/github.com/xbee/jindou/cmd/jindou-admin/auth.go",
+		"/Users/michael/.go/src/github.com/xbee/jindou/cmd/jindou-base/services.go",
+		"/Users/michael/.go/src/github.com/xbee/jindou/cmd/jindou-base/run_test.go",
+		"/Users/michael/.go/src/github.com/xbee/jindou/cmd/jindou-base/run.go",
+		"/Users/michael/.go/src/github.com/xbee/jindou/cmd/jindou-base/guess_test.go",
+		"/Users/michael/.go/src/github.com/xbee/jindou/cmd/jindou-base/guess.go",
+		"/Users/michael/.go/src/github.com/xbee/jindou/cmd/jindou-base/testdata/gitconfig-ok-nongit-user",
+		"/Users/michael/.go/src/github.com/xbee/jindou/cmd/jindou-base/apps.go",
+		"/Users/michael/.go/src/github.com/xbee/jindou/cmd/jindou-base/apps_test.go",
+		"/Users/michael/.go/src/github.com/xbee/jindou/cmd/jindou-base/env.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/auth.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/auth_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/client_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/cmd.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/cmd_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/crane/main.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/crane/main_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/crane/services.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/crane/services_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/crane/suite_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/target_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/term/test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsr/admin.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsr/admin_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsr/api.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsr/api_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsr/collector.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsr/collector_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsr/command.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsr/healer.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsr/healer_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsr/main.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsr/main_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsr/suite_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsr/token.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsr/token_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru-admin/auth.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru-admin/auth_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru-admin/log.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru-admin/log_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru-admin/main.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru-admin/main_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru-admin/quota.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru-admin/quota_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru-admin/suite_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru-base/apps.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru-base/apps_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru-base/env.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru-base/env_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru-base/guess.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru-base/log.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru-base/log_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru-base/run.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru-base/run_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru-base/services.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru-base/services_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru-base/suite_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru-base/testdata/gitconfig-not-matching",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru-base/testdata/gitconfig-ok",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru-base/testdata/gitconfig-ok-nongit-user",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru-base/testdata/gitconfig-without-tsuru-remote",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru/apps.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru/apps_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru/key.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru/key_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru/main.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru/main_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru/platform.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru/platform_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru/suite_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru/swap.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/tsuru/swap_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/cmd/utils_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/collector/bench_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/collector/collector.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/collector/collector_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/collector/runner.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/collector/runner_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/collector/suite_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/router/elb/router.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/router/elb/router_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/router/hipache/example_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/router/hipache/router.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/router/hipache/router_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/router/router.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/router/suite_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/router/testing/router.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/router/testing/router_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/git/git_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/git/testdata/gitconfig",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/provision/docker/actions.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/provision/docker/actions_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/provision/docker/collector.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/provision/docker/collector_test.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/provision/docker/commands.go",
+		"/Users/michael/mygo/src/github.com/xbee/jindou/provision/docker/commands_test.go"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/michael/workspace/lxjs-chat,-/Users/michael/workspace/lxjs-chat/node_modules/*,",
+			"/Users/michael/workspace/lxjs-chat,-/Users/michael/workspace/lxjs-chat/node_modules",
+			"/Users/michael/workspace/lxjs-chat",
+			"/Users/michael/workspace/mojing/site_scons/site_tools/go",
+			"/Users/michael/repos/org.eclipse.paho.mqtt.golang",
+			"/Users/michael/mygo/src/github.com/xbee/jindou",
+			"/Users/michael/workspace/jindou,/Users/michael/repos/tsuru",
+			"/Users/michael/workspace/jindou",
+			"/Users/michael/repos/gandalf2,-.travis.yml",
+			"/Users/michael/repos/gandalf2",
+			"/home/huanglifeng/repos/gandalf2",
+			"/home/huanglifeng/repos/tsuru",
+			"/home/huanglifeng/workspace/rtmap/deps/pooly/src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"RTCSessionDescription",
+			"Socket",
+			"websocket",
+			"rtc.connect",
+			"send",
+			"hat",
+			"connect",
+			"sendMessage",
+			"setLocalAndSendMessage",
+			"sessionDescription",
+			"preferOpus",
+			"createOffer",
+			"signal",
+			"addChat",
+			"isStarted",
+			"maybeStart",
+			"createPeerConnection",
+			"trace",
+			"enableMessageInterface",
+			"sendButton",
+			"pc_config",
+			"city",
+			"rentcity",
+			"zuche",
+			"CreateMenu",
+			"Printf",
+			"CreateMenu",
+			"Post",
+			"CreateMenu",
+			"_get_host_platform",
+			"_get_go_env",
+			"_go_object_suffix",
+			"TARGET",
+			"GO_GC",
+			"Action",
+			"GO_GCCOMSTR",
+			"GO_LDCOM",
+			"GO_LDCOMSTR",
+			"GO_LIBPATH",
+			"GO_PKGROOT",
+			"['pkgroot']",
+			"go_linker",
+			"GoTarget",
+			"_run_goenv",
+			"GoTarget",
+			"_parse_config",
+			"_run_goenv",
+			"_get_platform_info",
+			"GoProgram",
+			"GO_GCCOMSTR",
+			"generate",
+			"_subdict",
+			"goroot",
+			"gopath",
+			"['gc']",
+			"info['gc']",
+			"6",
+			"6g",
+			"GO_GC",
+			"openConnection",
+			"onconnlost",
+			"OnConnectionLost",
+			"SetOnConnectionLost",
+			"globocom/tsuru",
+			"addUserToTeamIn",
+			"tsuru",
+			"undefinedTargetError",
+			"No target defined. Please use target-add/target-set to define a target.",
+			"}\n",
+			"target",
+			"tsuru",
+			"GetByName",
+			"globocom/tsuru",
+			"globocom/gandalf",
+			"github.com/globocom/config",
+			"git",
+			"github.com/globocom/config",
+			"globocom/tsuru",
+			"tsuru",
+			"cor",
+			"globo.com",
+			"tsuru",
+			"gandalf",
+			"Gandalf",
+			"TestServer",
+			"httptest.Server",
+			"StartGandalfTestServer",
+			"createUser",
+			"Must",
+			"NewError",
+			"FormView",
+			"hostonlyif",
+			"NewUser",
+			"github.com/globocom/gandalf",
+			"github.com/dotcloud/docker/term",
+			"imports github.com/dotcloud/docker/term",
+			"timer",
+			"OSCAR_IMAGE_FOLDER",
+			"get_core_apps",
+			"getDefaultPluginPath",
+			"boost",
+			"get_parent_path",
+			"parent_path",
+			"fexists",
+			"exists",
+			"iequals",
+			"boost",
+			"submit",
+			"whereis",
+			"start_link",
+			"m_udpProxyServer",
+			"itoa",
+			"enif_get_string",
+			"handle",
+			"num",
+			"str1",
+			"devname",
+			"PCAP_ERRBUF_SIZE"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"xbee/jindou",
+			"jindou",
+			"xbee/jindou",
+			"xbee/gronru",
+			"github.com/xbee/config",
+			"xbee/jindou",
+			"jindou",
+			"jindou.io",
+			"jindou",
+			"gronru",
+			"Gronru",
+			"bitbucket.org/jindouio/tangseng"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 13,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "packages/users/app.js",
+					"settings":
+					{
+						"buffer_size": 1375,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								385,
+								385
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 209.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "packages/users/package.json",
+					"settings":
+					{
+						"buffer_size": 243,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								210,
+								210
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 2926,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "packages/users/server/models/user.js",
+					"settings":
+					{
+						"buffer_size": 3137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								128,
+								128
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 77.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "node_modules/meanio/index.js",
+					"settings":
+					{
+						"buffer_size": 335,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "node_modules/meanio/modules/package.js",
+					"settings":
+					{
+						"buffer_size": 360,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								98
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "node_modules/meanio/lib/mean.js",
+					"settings":
+					{
+						"buffer_size": 15370,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								298,
+								298
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1690.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "node_modules/meanio/lib/scaffold.js",
+					"settings":
+					{
+						"buffer_size": 3573,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "packages/system/app.js",
+					"settings":
+					{
+						"buffer_size": 913,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								845,
+								851
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 181.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "packages/system/package.json",
+					"settings":
+					{
+						"buffer_size": 250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "packages/system/server/routes/index.js",
+					"settings":
+					{
+						"buffer_size": 181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "packages/system/server/routes/menus.js",
+					"settings":
+					{
+						"buffer_size": 617,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								497,
+								497
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "packages/system/server/controllers/index.js",
+					"settings":
+					{
+						"buffer_size": 769,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								230,
+								230
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 145.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "packages/access/server/config/authorization.js",
+					"settings":
+					{
+						"buffer_size": 522,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								204,
+								204
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "packages/access/server/config/passport.js",
+					"settings":
+					{
+						"buffer_size": 5744,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								534,
+								534
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 578.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.9o:///Users/michael/workspace/golang":
+	{
+		"height": 155.0
+	},
+	"output.GoSublime-main-output":
+	{
+		"height": 118.0
+	},
+	"output.clang":
+	{
+		"height": 103.0
+	},
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.sublimerl_autocompiler":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 270.0,
+	"status_bar_visible": true
+}

@@ -1,9 +1,9 @@
 {
   "name": "sites",
   "version": "0.0.1",
-  "description": "Some description of sites",
+  "description": "Sites package",
   "author": {
-    "name": "mean scaffold"
+    "name": "Michael"
   },
   "mean": "0.4.0",
   "engines": {

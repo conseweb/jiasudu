@@ -1,0 +1,14 @@
+<section data-ng-controller="SitesController" data-ng-init="findOne()">
+  <span>{{site.created | date:'medium'}}</span> /
+  <span>{{site.user.name}}</span>
+  <h2>{{site.title}}</h2>
+  <div data-ng-if="hasAuthorization(site)">
+    <a class="btn" href="/#!/sites/{{site._id}}/edit">
+      <i class="glyphicon glyphicon-edit"></i>
+    </a>
+    <a class="btn" data-ng-click="remove(site);">
+      <i class="glyphicon glyphicon-trash"></i>
+    </a>
+  </div>
+  <div>{{site.domain}}</div>
+</section>

@@ -18,10 +18,15 @@ Sites.register(function(app, auth, database) {
 
   //We are adding a link to the main menu for all authenticated users
   Sites.menus.add({
-    title: 'sites example page',
-    link: 'sites example page',
     roles: ['authenticated'],
-    menu: 'main'
+    title: 'Sites',
+    link: 'all sites'
+  });
+  Sites.menus.add({
+    roles: ['authenticated'],
+    title: 'Create New Site',
+    link: 'create site'
+    
   });
 
   /**

@@ -1,26 +1,25 @@
 'use strict';
 
-// The Package is past automatically as first parameter
-module.exports = function(Sites, app, auth, database) {
+var sites = require('../controllers/sites');
 
-  app.get('/sites/example/anyone', function(req, res, next) {
-    res.send('Anyone can access this');
-  });
+// Site authorization helpers
+var hasAuthorization = function(req, res, next) {
+    if (!req.user.isAdmin && req.site.user.id !== req.user.id) {
+        return res.send(401, 'User is not authorized');
+    }
+    next();
+};
 
-  app.get('/sites/example/auth', auth.requiresLogin, function(req, res, next) {
-    res.send('Only authenticated users can access this');
-  });
+module.exports = function(Sites, app, auth) {
 
-  app.get('/sites/example/admin', auth.requiresAdmin, function(req, res, next) {
-    res.send('Only users with Admin role can access this');
-  });
+    app.route('/sites')
+        .get(sites.all)
+        .post(auth.requiresLogin, sites.create);
+    app.route('/sites/:siteId')
+        .get(sites.show)
+        .put(auth.requiresLogin, hasAuthorization, sites.update)
+        .delete(auth.requiresLogin, hasAuthorization, sites.destroy);
 
-  app.get('/sites/example/render', function(req, res, next) {
-    Sites.render('index', {
-      package: 'sites'
-    }, function(err, html) {
-      //Rendering a view from the Package server/views
-      res.send(html);
-    });
-  });
+    // Finish with setting up the siteId param
+    app.param('siteId', sites.site);
 };
