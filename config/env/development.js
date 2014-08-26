@@ -6,7 +6,7 @@ module.exports = {
     debug: true
   },
   app: {
-    name: 'MEAN - FullStack JS - Development'
+    name: '加速度'
   },
   facebook: {
     clientID: 'APP_ID',

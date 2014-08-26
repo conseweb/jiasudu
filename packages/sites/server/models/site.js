@@ -25,6 +25,16 @@ var SiteSchema = new Schema({
         required: true,
         trim: true
     },
+    validated: {
+        type: Boolean,
+        required: true,
+        default: false
+    },
+    activated: {
+        type: Boolean,
+        required: true,
+        default: false
+    },
     user: {
         type: Schema.ObjectId,
         ref: 'User'

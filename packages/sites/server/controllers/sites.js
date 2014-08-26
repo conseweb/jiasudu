@@ -3,9 +3,9 @@
 /**
  * Module dependencies.
  */
-var mongoose = require('mongoose'),
-    Site = mongoose.model('Site'),
-    _ = require('lodash');
+var mongoose = require('mongoose');
+var Site = mongoose.model('Site');
+var _ = require('lodash');
 
 
 /**
