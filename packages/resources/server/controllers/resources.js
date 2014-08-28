@@ -40,6 +40,22 @@ exports.create = function(req, res) {
 };
 
 /**
+ * Bulk create many resource
+ */
+exports.bulkcreate = function(req, res) {
+    Resource.collection.insert(req.body, null, function(err) {
+        if (err) {
+            return res.json(500, {
+                error: 'Cannot save the resource',
+                detail: err
+            });
+        }
+        return null;
+
+    });
+};
+
+/**
  * Update an resource
  */
 exports.update = function(req, res) {

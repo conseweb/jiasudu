@@ -95,3 +95,21 @@ exports.all = function(req, res) {
 
     });
 };
+
+/**
+ * List of Sites by user
+ */
+exports.byuser = function(req, res) {
+//    if (req.params.userId)
+//        console.log(req.params.userId);
+
+    Site.find({'user': req.params.userId}).sort('-created').populate('user', 'name username').exec(function(err, sites) {
+        if (err) {
+            return res.json(500, {
+                error: 'Cannot list the sites'
+            });
+        }
+        res.json(sites);
+
+    });
+};

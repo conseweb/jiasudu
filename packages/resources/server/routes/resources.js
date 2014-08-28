@@ -15,10 +15,14 @@ module.exports = function(Resources, app, auth) {
     app.route('/resources')
         .get(resources.all)
         .post(resources.create);
+    app.route('/resources/bulk')
+        .post(resources.bulkcreate);
     app.route('/resources/:resourceId')
         .get(resources.show)
         .put(resources.update)
         .delete(resources.destroy);
+
+
 
     // Finish with setting up the siteId param
     app.param('resourceId', resources.resource);

@@ -20,7 +20,7 @@ Sites.register(function(app, auth, database) {
   Sites.menus.add({
     roles: ['authenticated'],
     title: '您的站点',
-    link: 'all sites'
+    link: 'all sites for the user'
   });
   Sites.menus.add({
     roles: ['authenticated'],

@@ -20,7 +20,7 @@ angular.module('mean.sites').controller('SitesController', ['$scope', '$statePar
               });
 
               this.title = '';
-              this.content = '';
+              this.domain = '';
           } else {
               $scope.submitted = true;
           }

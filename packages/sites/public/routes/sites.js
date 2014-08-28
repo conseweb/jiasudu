@@ -25,8 +25,8 @@ angular.module('mean.sites').config(['$stateProvider',
 
         // states for my app
         $stateProvider
-            .state('all sites', {
-                url: '/sites',
+            .state('all sites for the user', {
+                url: '/sites/u/:userId',
                 templateUrl: 'sites/views/list.html',
                 resolve: {
                     loggedin: checkLoggedin
