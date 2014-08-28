@@ -20,12 +20,13 @@ Sites.register(function(app, auth, database) {
   Sites.menus.add({
     roles: ['authenticated'],
     title: '您的站点',
-    link: 'all sites for the user'
+    link: 'getAllSitesByUser({userId: global.user._id})'
+//    params: {userId: 'window.user._id'}
   });
   Sites.menus.add({
     roles: ['authenticated'],
     title: '增加新的站点',
-    link: 'create site'
+    link: 'createsite({userId: global.user._id})'
     
   });
 

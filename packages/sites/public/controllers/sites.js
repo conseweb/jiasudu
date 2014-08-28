@@ -15,8 +15,9 @@ angular.module('mean.sites').controller('SitesController', ['$scope', '$statePar
                   title: this.title,
                   domain: this.domain
               });
-              site.$save(function(response) {
-                  $location.path('sites/' + response._id);
+              var userId = $scope.global.user._id;
+              site.$save({userId: $stateParams.userId}, function(response) {
+                  $location.path('user/' + userId + '/sites/' + response._id);
               });
 
               this.title = '';
@@ -30,6 +31,7 @@ angular.module('mean.sites').controller('SitesController', ['$scope', '$statePar
           if (site) {
               site.$remove();
 
+              // remove it from client side records
               for (var i in $scope.sites) {
                   if ($scope.sites[i] === site) {
                       $scope.sites.splice(i, 1);
@@ -37,7 +39,7 @@ angular.module('mean.sites').controller('SitesController', ['$scope', '$statePar
               }
           } else {
               $scope.site.$remove(function(response) {
-                  $location.path('sites');
+                  $location.path('user/' + $scope.global.user._id + 'sites');
               });
           }
       };
@@ -51,7 +53,7 @@ angular.module('mean.sites').controller('SitesController', ['$scope', '$statePar
               site.updated.push(new Date().getTime());
 
               site.$update(function() {
-                  $location.path('sites/' + site._id);
+                  $location.path('user/' + $scope.global.user._id + '/sites/' + site._id);
               });
           } else {
               $scope.submitted = true;
@@ -59,13 +61,14 @@ angular.module('mean.sites').controller('SitesController', ['$scope', '$statePar
       };
 
       $scope.find = function() {
-          Sites.query(function(sites) {
+          var sites = Sites.query({userId: $stateParams.userId}, function() {
               $scope.sites = sites;
           });
       };
 
       $scope.findOne = function() {
           Sites.get({
+              userId: $stateParams.userId,
               siteId: $stateParams.siteId
           }, function(site) {
               $scope.site = site;

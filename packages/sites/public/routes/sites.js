@@ -25,29 +25,29 @@ angular.module('mean.sites').config(['$stateProvider',
 
         // states for my app
         $stateProvider
-            .state('all sites for the user', {
-                url: '/sites/u/:userId',
+            .state('getAllSitesByUser', {
+                url: '/user/:userId/sites',
                 templateUrl: 'sites/views/list.html',
-                resolve: {
+                resolve:{
                     loggedin: checkLoggedin
                 }
             })
-            .state('create site', {
-                url: '/sites/create',
+            .state('createsite', {
+                url: '/user/:userId/sites/create',
                 templateUrl: 'sites/views/create.html',
                 resolve: {
                     loggedin: checkLoggedin
                 }
             })
             .state('edit site', {
-                url: '/sites/:siteId/edit',
+                url: '/user/:userId/sites/:siteId/edit',
                 templateUrl: 'sites/views/edit.html',
                 resolve: {
                     loggedin: checkLoggedin
                 }
             })
             .state('site by id', {
-                url: '/sites/:siteId',
+                url: '/user/:userId/sites/:siteId',
                 templateUrl: 'sites/views/view.html',
                 resolve: {
                     loggedin: checkLoggedin

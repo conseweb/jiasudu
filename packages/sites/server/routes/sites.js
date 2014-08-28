@@ -12,14 +12,14 @@ var hasAuthorization = function(req, res, next) {
 
 module.exports = function(Sites, app, auth) {
 
+    app.route('/user/:userId/sites')
+        .get(sites.byuser)
+        .post(sites.create);
+//        .post(auth.requiresLogin, sites.create);
     app.route('/sites')
         .get(sites.all);
-    app.route('/sites/u/:userId')
-        .get(sites.byuser);
 //        .get(auth.requiresLogin, hasAuthorization, sites.byuser);
-    app.route('/sites')
-        .post(auth.requiresLogin, sites.create);
-    app.route('/sites/:siteId')
+    app.route('/user/:userId/sites/:siteId')
         .get(sites.show)
         .put(auth.requiresLogin, hasAuthorization, sites.update)
         .delete(auth.requiresLogin, hasAuthorization, sites.destroy);

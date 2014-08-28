@@ -1,12 +1,40 @@
 <section data-ng-controller="SitesController" data-ng-init="find()">
+    <table class="sites unstyle">
+        <thead>
+        <tr>
+            <th>Created</th>
+            <th>By Who</th>
+            <th>Title</th>
+            <th>Domain</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr data-ng-repeat="site in sites">
+            <td>{{site.created | date:'medium'}}</td>
+            <td>{{site.user.name}}</td>
+            <td><a data-ng-href="#!/user/{{site.user._id}}/sites/{{site._id}}">{{site.title}}</a></td>
+            <td>{{site.domain}}</td>
+            <td nowrap=nowrap>
+                  <span data-ng-if="hasAuthorization(site)">
+                        <a class="btn" href="/#!/user/{{site.user._id}}/sites/{{site._id}}/edit">
+                            <i class="glyphicon glyphicon-edit"></i>
+                        </a>
+                    <a class="btn" data-ng-click="remove(site);">
+                        <i class="glyphicon glyphicon-trash"></i>
+                    </a>
+                  </span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
   <ul class="sites unstyled">
     <li data-ng-repeat="site in sites">
       <span>{{site.created | date:'medium'}}</span> /
       <span>{{site.user.name}}</span>
       <h2>
-        <a data-ng-href="#!/sites/{{site._id}}">{{site.title}}</a>
+        <a data-ng-href="#!/user/{{site.user._id}}/sites/{{site._id}}">{{site.title}}</a>
         <span data-ng-if="hasAuthorization(site)">
-          <a class="btn" href="/#!/sites/{{site._id}}/edit">
+          <a class="btn" href="/#!/user/{{site.user._id}}/sites/{{site._id}}/edit">
             <i class="glyphicon glyphicon-edit"></i>
           </a>
           <a class="btn" data-ng-click="remove(site);">
@@ -17,5 +45,6 @@
       <div>{{site.domain}}</div>
     </li>
   </ul>
-  <h1 data-ng-hide="!sites || sites.length">No sites yet. <br> Why don't you <a href="/#!/sites/create">Create One</a>?</h1>
+  <h1 data-ng-hide="!sites || sites.length">No sites yet. <br> Why don't you <a href="/#!/user/{{site.user._id}}/sites/create">Create One</a>?</h1>
 </section>
+

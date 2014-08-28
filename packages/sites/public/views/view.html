@@ -3,7 +3,7 @@
   <span>{{site.user.name}}</span>
   <h2>{{site.title}}</h2>
   <div data-ng-if="hasAuthorization(site)">
-    <a class="btn" href="/#!/sites/{{site._id}}/edit">
+    <a class="btn" href="/#!/user/{{site.user._id}}/sites/{{site._id}}/edit">
       <i class="glyphicon glyphicon-edit"></i>
     </a>
     <a class="btn" data-ng-click="remove(site);">
