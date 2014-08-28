@@ -66,7 +66,8 @@ angular.module('mean.sites').controller('SitesController', ['$scope', '$statePar
 
       $scope.findOne = function() {
           Sites.get({
-              siteId: $stateParams.siteId
+              siteId: $stateParams.siteId,
+              userId: $stateParams.userId
           }, function(site) {
               $scope.site = site;
           });

@@ -1,4 +1,22 @@
 <section data-ng-controller="SitesController" data-ng-init="find()">
+  <ul class="sites unstyle">
+      <tr ng-repeat="site in sites">
+          <td>{{site.created | date:'medium'}}</td>
+          <td>{{site.user.name}}</td>
+          <td><a data-ng-href="#!/sites/{{site._id}}">{{site.title}}</a></td>
+          <td>{{site.domain}}</td>
+          <td nowrap=nowrap>
+              <span data-ng-if="hasAuthorization(site)">
+                <a class="btn" href="/#!/sites/{{site._id}}/edit">
+                    <i class="glyphicon glyphicon-edit"></i>
+                </a>
+                <a class="btn" data-ng-click="remove(site);">
+                    <i class="glyphicon glyphicon-trash"></i>
+                </a>
+              </span>
+          </td>
+      </tr>
+  </ul>
   <ul class="sites unstyled">
     <li data-ng-repeat="site in sites">
       <span>{{site.created | date:'medium'}}</span> /
@@ -19,3 +37,4 @@
   </ul>
   <h1 data-ng-hide="!sites || sites.length">No sites yet. <br> Why don't you <a href="/#!/sites/create">Create One</a>?</h1>
 </section>
+

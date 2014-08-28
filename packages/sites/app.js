@@ -20,7 +20,8 @@ Sites.register(function(app, auth, database) {
   Sites.menus.add({
     roles: ['authenticated'],
     title: '您的站点',
-    link: 'all sites for the user'
+    link: 'getAllSitesByUser({userId: global.user._id})'
+//    params: {userId: 'window.user._id'}
   });
   Sites.menus.add({
     roles: ['authenticated'],

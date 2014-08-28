@@ -25,10 +25,18 @@ angular.module('mean.sites').config(['$stateProvider',
 
         // states for my app
         $stateProvider
-            .state('all sites for the user', {
+            .state('getAllSitesByUser', {
                 url: '/sites/u/:userId',
                 templateUrl: 'sites/views/list.html',
-                resolve: {
+                controller: function($scope, $state, $stateParams){
+//                    $scope.id = $stateParams.userId;
+//                    $scope.params = $stateParams;
+//                    console.log('getAllSitesByUser params: ', $stateParams);
+//                    $scope.go = function () {
+//                        $state.go('getAllSitesByUser', { userId : user._id });
+//                    };
+                },
+                resolve:{
                     loggedin: checkLoggedin
                 }
             })
