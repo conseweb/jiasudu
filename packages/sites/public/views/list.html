@@ -1,15 +1,19 @@
 <section data-ng-controller="SitesController" data-ng-init="find()">
-    <table class="sites unstyle">
+    <div class="table-responsive">
+    <table class="sites table table-hover">
         <thead>
         <tr>
-            <th>Created</th>
-            <th>By Who</th>
-            <th>Title</th>
-            <th>Domain</th>
+            <th>#</th>
+            <th>创建时间</th>
+            <th>所有者</th>
+            <th>网站名</th>
+            <th>域名</th>
+            <th>操作</th>
         </tr>
         </thead>
         <tbody>
         <tr data-ng-repeat="site in sites">
+            <td>{{$index+1}}</td>
             <td>{{site.created | date:'medium'}}</td>
             <td>{{site.user.name}}</td>
             <td><a data-ng-href="#!/user/{{site.user._id}}/sites/{{site._id}}">{{site.title}}</a></td>
@@ -27,24 +31,8 @@
         </tr>
         </tbody>
     </table>
-  <ul class="sites unstyled">
-    <li data-ng-repeat="site in sites">
-      <span>{{site.created | date:'medium'}}</span> /
-      <span>{{site.user.name}}</span>
-      <h2>
-        <a data-ng-href="#!/user/{{site.user._id}}/sites/{{site._id}}">{{site.title}}</a>
-        <span data-ng-if="hasAuthorization(site)">
-          <a class="btn" href="/#!/user/{{site.user._id}}/sites/{{site._id}}/edit">
-            <i class="glyphicon glyphicon-edit"></i>
-          </a>
-          <a class="btn" data-ng-click="remove(site);">
-            <i class="glyphicon glyphicon-trash"></i>
-          </a>
-        </span>
-      </h2>
-      <div>{{site.domain}}</div>
-    </li>
-  </ul>
+    </div>
+
   <h1 data-ng-hide="!sites || sites.length">No sites yet. <br> Why don't you <a href="/#!/user/{{site.user._id}}/sites/create">Create One</a>?</h1>
 </section>
 
