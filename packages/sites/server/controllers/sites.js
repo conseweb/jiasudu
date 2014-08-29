@@ -5,6 +5,8 @@
  */
 var mongoose = require('mongoose');
 var Site = mongoose.model('Site');
+var request = require('request');
+var cheerio = require('cheerio');
 var _ = require('lodash');
 
 
@@ -112,4 +114,25 @@ exports.byuser = function(req, res) {
         res.json(sites);
 
     });
+};
+
+exports.validate = function(req, res) {
+    // http://scotch.io/tutorials/javascript/scraping-the-web-with-node-js
+
+    url = 'http://www.imdb.com/title/tt1229340/';
+    request(url, function(error, response, html) {
+
+        // First we'll check to make sure no errors occurred when making the request
+
+        if(!error){
+            // Next, we'll utilize the cheerio library on the returned html which will essentially give us jQuery functionality
+
+            var $ = cheerio.load(html);
+
+            // Finally, we'll define the variables we're going to capture
+
+            var title, release, rating;
+            var json = { title : "", release : "", rating : ""};
+        }
+    })
 };

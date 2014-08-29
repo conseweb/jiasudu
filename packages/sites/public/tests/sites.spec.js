@@ -55,7 +55,7 @@
                 // test expected GET request
                 $httpBackend.expectGET('sites').respond([{
                     title: 'An Article about MEAN',
-                    content: 'MEAN rocks!'
+                    domain: 'MEAN rocks!'
                 }]);
 
                 // run controller
@@ -65,7 +65,7 @@
                 // test scope value
                 expect(scope.sites).toEqualData([{
                     title: 'An Article about MEAN',
-                    content: 'MEAN rocks!'
+                    domain: 'MEAN rocks!'
                 }]);
 
             });
@@ -76,10 +76,10 @@
                 $stateParams.siteId = '525a8422f6d0f87f0e407a33';
 
                 // fixture response object
-                var testArticleData = function() {
+                var testSiteData = function() {
                     return {
-                        title: 'An Article about MEAN',
-                        content: 'MEAN rocks!'
+                        title: 'An Site about MEAN',
+                        domain: 'MEAN rocks!'
                     };
                 };
 

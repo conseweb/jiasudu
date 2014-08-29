@@ -29,7 +29,7 @@ angular.module('mean.sites').controller('SitesController', ['$scope', '$statePar
 
       $scope.remove = function(site) {
           if (site) {
-              site.$remove();
+              site.$remove({userId: $stateParams.userId});
 
               // remove it from client side records
               for (var i in $scope.sites) {
@@ -38,8 +38,9 @@ angular.module('mean.sites').controller('SitesController', ['$scope', '$statePar
                   }
               }
           } else {
-              $scope.site.$remove(function(response) {
-                  $location.path('user/' + $scope.global.user._id + 'sites');
+              var userId = $scope.global.user._id;
+              $scope.site.$remove({userId: $stateParams.userId}, function(response) {
+                  $location.path('user/' + userId + '/sites');
               });
           }
       };
@@ -52,8 +53,9 @@ angular.module('mean.sites').controller('SitesController', ['$scope', '$statePar
               }
               site.updated.push(new Date().getTime());
 
-              site.$update(function() {
-                  $location.path('user/' + $scope.global.user._id + '/sites/' + site._id);
+              var userId = $scope.global.user._id;
+              site.$update({userId: $stateParams.userId}, function() {
+                  $location.path('user/' + userId + '/sites/' + site._id);
               });
           } else {
               $scope.submitted = true;
